@@ -23,6 +23,6 @@ In a text file `assignment7.txt`, answer the following questions:
 ```
 
 ### Submission Guidelines
-Please include your name and a description in a comment at the top of your code files. Please also include your name at the top of your assignment7.txt file.
+Please include your name and a description in a comment at the top of your code files. Please also include your name at the top of your `assignment7.txt` file.
 
 All files must be submitted via GitHub by 10:10am 8/2. 
