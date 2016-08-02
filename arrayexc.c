@@ -4,7 +4,53 @@
 
 int fnx(char *string1, char *string2)
 {
-	return strcmp(string1, string2);
+	int y = strlen(string1);
+	int z = strlen(string2);
+
+	if(y >= z)
+	{
+	for(int i = 0; i < z; i++)
+	{
+		if(string1[i] != string2[i])	
+			if(string1[i] == string2[2])
+			{
+				if(string1[i] > string2[i])
+				{
+					return 1;
+				}
+				if(string1[i] < string2[i])
+				{
+					return -1;
+				}
+			}
+	}
+	}
+
+	else if(z >= y)
+	{
+		for(int i = 0; i < y; i++)
+		{
+			if(string1[i] != string2[2])
+			{
+				if(string1[i] > string2[i])
+				{
+					return 1;
+				}
+				if(string1[i] < string2[i])
+				{
+					return -1;
+				}
+			}
+		}
+	}
+	return 0;
+
+	/*while(*string1 == *string2)
+	{
+		++string1;
+		++string2;
+	}
+	return *string1 - *string2;*/
 }
 
 int main()
