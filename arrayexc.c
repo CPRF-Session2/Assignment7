@@ -12,17 +12,16 @@ int fnx(char *string1, char *string2)
 	for(int i = 0; i < z; i++)
 	{
 		if(string1[i] != string2[i])	
-			if(string1[i] == string2[2])
-			{
+		{
 				if(string1[i] > string2[i])
 				{
 					return 1;
 				}
-				if(string1[i] < string2[i])
+				else if(string1[i] < string2[i])
 				{
 					return -1;
 				}
-			}
+		}
 	}
 	}
 
@@ -30,13 +29,13 @@ int fnx(char *string1, char *string2)
 	{
 		for(int i = 0; i < y; i++)
 		{
-			if(string1[i] != string2[2])
+			if(string1[i] != string2[i])
 			{
 				if(string1[i] > string2[i])
 				{
 					return 1;
 				}
-				if(string1[i] < string2[i])
+				else if(string1[i] < string2[i])
 				{
 					return -1;
 				}
