@@ -1,0 +1,11 @@
+1. ++*p adds one to where the pointer points to.
+   *p++ sets p to the next location.
+   *++p points the next value after p.
+
+2. (int) 3=0, because it points into a NULL location
+
+3. To check if pointers locations are not NULL
+
+4. Yes, you + or - the pointer location to change the memory location.
+
+5. the first and third one point to the [8] variable of arr1, and the second one points to the whole array
