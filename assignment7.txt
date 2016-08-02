@@ -1,0 +1,15 @@
+Priyanka Musti
+1.
+++*p= Increments the pointed value then stores it
+*p++=Evaluates the value then applies the pointer
+*++p increments *p so that it is the next number in the set
+2.
+Null pointer creates a pointer to nowhere because it points nowhere to memory
+3.
+This will point to nothing because it is null and ponts nowhere to memory
+4. You can add and subtract pointers to advance array through pointers
+5.
+
+int* arr1[8]: creates aray of 8 integers
+int(*arr2[8]):creates a pointer that points to an array of 8 integers
+int*[*arr8[8]: creats an array of 8 integer points
