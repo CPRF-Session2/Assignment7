@@ -1,3 +1,4 @@
+//Ashank Kumar, compares two strings
 #include <stdio.h>
 #include <string.h>
 
