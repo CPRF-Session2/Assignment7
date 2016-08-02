@@ -1,0 +1,25 @@
+Jinoo Hong
+
+1. Explain the difference between `++*p`, `*p++` and `*++p`. 
+++*p increases the value pointed by p by one. 
+*p++ does p++ first and so increases the address number in the (normally is array) array by one. And then takes that value. Basically it is the value of the next index of an array or string.
+*++p does the same thing as *p++.
+
+2. How would the NULL pointer be represented in terms of its data type and value? Your answer should be in a format such as ` (int) 3 ` or ` (char) c `. Please also include an explanation.
+Its data type does not matter because its value is NULL. It is defined as (data type) *var = NULL. e.g. int *abc = NULL. 
+
+3. What are use cases for NULL pointers?
+You use them to point to no where but I don't know when that would be helpful.
+
+4. Can you subtract pointers? Can you add them? Why would you?
+You can subtract and add pointers if you want to go through an array.
+
+5. What is the difference between the following declarations:
+``` C
+    int* arr1[8];
+    int (*arr2)[8];
+    int *(arr3[8]);
+```
+int* arr1[8] creates an array of 8 pointers that point to integers.
+int (*arr2)[8]; creates an array of integers 8 long and *arr2 points to the first value.
+int *(arr3[8]); is the same as the first one. 
