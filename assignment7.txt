@@ -1,0 +1,14 @@
+Mariposa Lee
+
+1.  ++*p increments the pointed value then stores it. *p++ can be interpreted as *(p++), because '++' is applied before the '*'. Then, the pointer is applied to p after it has been incremented. *++p is then essentially the same as *p++; the p is incremented first, then the pointer is applied. 
+
+2. I think it will be represented as:
+	(int) ptr* 
+	or (int) NULL
+Since default values of a pointer is automatically NULL, if it was in a format such as (int) 3 or (char) c, I believe it will just be (type) value. If a pointer doesn't refer back to anything, it will just be NULL. 
+
+3. By use case, if you mean the list of steps between a role and a system, NULL pointers don't point to any value. So NULL pointers will point to nothing as long as it either doesn't point to a valid value, or it is declared as NULL.
+
+4. I think it is possible to subtract and add pointers if they point to a valid value. Through research, you can use pointer arithmetic in copying arrays with pointers, because you need an end pointer to show when to stop the copy function. 
+
+5. int* arr1[8] creates an 8-integer array with pointers. int (*arr2)[8] creates a pointer called arr2, but I think it is only getting applied to the 8th value of the array, not the whole thing. int *(arr3[8]) creates an array with 8 integers, then applies the pointer. It probably creates the same thing as the first declaration. 
