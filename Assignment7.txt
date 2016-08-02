@@ -1,0 +1,12 @@
+1. ++*p increases the value of an item in array, *p++ and *++p iterate foward through the array
+
+2. The NULL pointer would be repersented as the datatype given to it, if it was written as int *a = NULL, then the datatype would be int, if it was written as char *c = NULL, the datatype would be char. As for the value, it would be 0 I think, atleast thats what happens when you run the program, I dont know honestly, its an address to no where, but null isnt exactly a real value you can give something so I guess 0 makes sense. Anyways in the format 
+[given datatype lets say integer] (int) 0.
+
+
+3. Null pointers can be useful to write for something that doesnt exist, or no longer exists. For the ladder its kinda like deleting it
+
+
+4. Yes I think you can subtract and add pointers, the use for subtracting ould be to find the difference, like between words for example in our strcompare program. Adding could be similar to concatting I think.
+
+5.Okay, so the second one seems to be pointing to the 8th position in an array while 1 and 3 seem to be making a pointer array with the length of 8.
