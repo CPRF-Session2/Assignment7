@@ -1,0 +1,21 @@
+1.)      /*Armstrong Park, this is my homework*/
+	++*p adds one to the value that pointer p is pointing to
+	*p++ goes to the next index in the array you are reffering to 
+	*++p is the same as *p++
+
+2.)
+	Since it is NULL the data type doesn't matter. An example of how you could write it is *var = NULL
+
+3.)
+	All I know is that a NULL pointer points to nothing, but I don't know when that would be useful.
+
+4.)
+	You can and you would use them to navigate through a specific array.
+
+5.)
+	The first one creates 8 pointers that point to integers.
+	
+	A pointer to an array of integers
+
+	The third one is the same as the first one
+
