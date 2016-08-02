@@ -1,0 +1,18 @@
+Ashank Kumar
+
+1. ++*p increments the value of the location p is pointing to by one, and then stores the value
+
+*p++ advances the location the pointer is pointing by 1
+
+*++p increments that value the pointer is pointing to by 1
+
+2. NULL pointer: int *p;
+
+3. NULL pointers can be used to repersent the end of a list
+
+4. You can subtract and add pointers, this could be used to advance through arrays using pointers, and then change the values in an array at those indexes.
+
+5. int* arr1[8] is an array of 8 integer pointers
+
+int (*arr2)[8] is a pointer, pointing to 8 arrays of integers
+int (*arr3[8]) is an array of 8 integer pointers
