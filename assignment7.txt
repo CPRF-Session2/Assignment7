@@ -1,0 +1,25 @@
+/*Rebecca Hale Assignment 7 Part 2*/
+1. ++*p increments the value that the pointer is pointing at by one. *p++ 
+does not change the value of any variable but increments where the pointer
+is pointing at by one, so it goes to the next memory location. *++p 
+increments the memory location of the pointer by one.
+
+2. char *p = (char *)0; /*creates a null pointer*/
+   int *p = NULL; /*creates a null pointer*/
+A null pointer can be assigned to any pointer type and is defined as a
+pointer that does not "point" to any specific address, it essentially
+points to nothing.
+
+3. Null pointers are often used to signify the end of a program and they
+are also used to figure out when a certain action has failed to occur.
+
+4. Pointers can be added and subtracted.  Often times, pointers are added
+and subtracted in order to access memory locations adjacent to the pointer,
+specifically in arrays and strings.  For instance, if a pointer array was
+created (int *arr) and the third location in the array needed to be accessed, arithmetic could be used to obtain whatever integer was in the third 
+location of the array *(arr+3).
+
+5. int* arr1[8]; - creates an array of size 8 full of integer pointers
+   int (*arr2)[8]; - creates a pointer to an array of 8 ints
+   int *(arr3[8]); - same as the first example, creates an array of size 8
+   		     full of pointer integers
