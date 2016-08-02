@@ -1,0 +1,26 @@
+Matthew Kellerman
+
+1.
+++*p increments the value at the location p points to, and then stores the incremented value
+
+*p++ stores the value at the location p points to and thengoes through p by 1
+
+*++p increments the value the location p points to, and then stores the incremented  value.
+
+2.
+(dataType)0
+
+It is 0 because NULL represents nothing. Its data type is the one you assign it to.
+
+3.
+You can use NULL pointers when you currently do not have 
+an exact address you want to assign the pointer to or you want to set the pointer to zero.
+
+4.
+You can add and subtract pointers. You would use pointers with addition/subtraction when you want to pass something by reference and change the value in memory directly. You can also use this to add numbers together and to find the difference between words.
+
+5.int* arr1[8]; creates an array of 8 integer pointers
+
+int (*arr2[8]); creates an pointer that points to an array of 8 integers
+
+int *(arr3[8]); creates an array of 8 integer pointers
