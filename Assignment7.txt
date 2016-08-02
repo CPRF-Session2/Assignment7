@@ -1,0 +1,22 @@
+Madeleine Charity
+
+1. Explain the difference between ++*p, *p++ and *++p.
+	++*p incrementes the value that the pointer points to
+	*p++ evaluatates the value that p points to, then adds one to p so it evaluates the next location 
+	*++p increments *p so that it evaluates the next number in the set
+
+2. How would the NULL pointer be represented in terms of its data type and value? Your answer should be in a format such as (int) 3 or (char) c. Please also include an explanation.
+	char *c=0; 
+		This creates a pointer that points nowhere because the memory location is 0.
+
+4. What are use cases for NULL pointers?
+	When you want to check if a pointer has a location in it. You could write: 
+		int *p
+		int* null=0;
+		if (*p==*null) {p is null}
+5. Can you subtract pointers? Can you add them? Why would you?
+	Yes, to advance or move back where the pointer pointed to. You can change the memory location.
+
+6. What is the difference between the following declarations:
+	
+	They all create an array of pointers.
