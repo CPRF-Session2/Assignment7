@@ -1,0 +1,17 @@
+Jared Wasserman
+
+1)
+	++*p : increments the values at the location p points to and stores the incremented value in that memory location
+	*p++ : returns the value at the location p and then increments the pointer
+	*++p : returns the value at the location p+1 (by incrementing the pointer first)
+
+2) "char *c;". The pointer c has a value of NULL because it is not assigned to any memory location. The pointer itself "c" has a value of NULL instead of a memory location.
+
+3) You would use the NULL pointer to check if a pointer is assigned to a value or is not yet initialized.
+
+4) You can substract pointers to find how far apart they are from each other but you cannot add pointers because then you would be adding their memory location which would not be useful.
+
+5) 
+	int* arr1[8];  : Creates an array of 8 pointers (that point to integers).
+	int (*arr2)[8];  : Does the same as the one above. Creates an array of 8 pointers (that point to integers).
+	int *(arr3[8]);  : Is different from the other two. Creates a pointer that points to an array of 8 integers.	
