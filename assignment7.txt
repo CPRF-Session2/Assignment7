@@ -1,0 +1,15 @@
+Drew French
+
+1)	++*p - Adds 1 to the value pointed to.
+	*p++ - Adds 1 to the value initially pointed to and then points to the next value.
+	*++p - Adds 1 to the value pointed to.
+
+2)	Maybe (char) '\0'?
+
+3)	?
+
+4)	You can add and subtract from pointer targets to get to different locations in an array.
+
+5)	int* arr1[8]; - Makes a pointer point to an array.
+	int (*arr2)[8]; - Makes an array.
+	int *(arr3)[8]; - Makes a pointer point to an array.
