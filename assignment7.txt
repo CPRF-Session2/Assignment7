@@ -1,0 +1,10 @@
+Can Parlar
+1.First one adds one to where the pointer is, second one goes to the next adress, and the third one does the same as the second one.
+
+2.I dont know
+
+3.I dont know
+
+4.I think we can by just using - or +. We can determine how far they are to each other where do they point when they are added to eachother.
+
+5.First means there is an array of pointers, second means there is a pointer for an array, third one is the same with the first one.
