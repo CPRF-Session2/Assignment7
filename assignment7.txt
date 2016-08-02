@@ -21,6 +21,6 @@ You can add and subtract pointers. You would use pointers with addition/subtract
 
 5.int* arr1[8]; creates an array of 8 integer pointers
 
-int (*arr2[8]); creates an pointer that points to 8 integers
+int (*arr2[8]); creates an pointer that points to an array of 8 integers
 
 int *(arr3[8]); creates an array of 8 integer pointers
