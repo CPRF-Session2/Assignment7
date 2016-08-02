@@ -1,0 +1,18 @@
+Aldin Aksay
+Assignment 7
+1. What is the difference between ++*p, *p++, and *++p?
+	++*p increments value at location 'p', then stores it in the in the incremented value.
+	*p++ advances p from the location p points to
+	*++p also advances p from the location p points to
+
+2. How would the NULL pointer be represented in terms of its data type and value? Your answer should be in a format such as (int) 3 or (char) c.
+	The value of a NULL pointer is 0, and it does not havea data type. You would represent it as NULL (0).
+	
+3. What are use cases for NULL pointers?
+	When you want to represent conditions, such as at the end of a list with an unknown length, or when you aren't able to perform some action.
+
+4. Can you subtract or add pointers? Why would you?
+	You can only subtract pointers, when you want to move around to different places in the array, or to see how far apart the two integers are. 
+
+5. What is the difference between the following declarations?
+	int* arr1[8] and int *(arr2)[8] are the same, both arrays of 8 pointers to integers. int *(arr3[8]) points to an array of 8 integers. 
