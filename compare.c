@@ -24,6 +24,7 @@ else{
        }
        }
 counter =0;
+//I know that strcmp() doesn't print the code below, but Ijust added it in so the output would be easier to understand.
 printf("The strings are not the same.\n");
 break;
 }
